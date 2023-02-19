@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AAB16E329A1FFA100644DFC /* VerletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB16E229A1FFA100644DFC /* VerletApp.swift */; };
+		9AAB16E529A1FFA100644DFC /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB16E429A1FFA100644DFC /* MetalView.swift */; };
+		9AAB16E729A1FFA200644DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB16E629A1FFA200644DFC /* Assets.xcassets */; };
+		9AAB16EA29A1FFA200644DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB16E929A1FFA200644DFC /* Preview Assets.xcassets */; };
+		9AAB16F229A201AF00644DFC /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB16F129A201AF00644DFC /* Renderer.swift */; };
+		9AAB16F429A2045C00644DFC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB16F329A2045C00644DFC /* Shaders.metal */; };
+		9AAB16F629A21D5100644DFC /* BufferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB16F529A21D5100644DFC /* BufferManager.swift */; };
+		9AAB16F829A21D8700644DFC /* MetalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB16F729A21D8700644DFC /* MetalManager.swift */; };
+		9AAB16FB29A2418100644DFC /* positions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB16F929A240D200644DFC /* positions.txt */; };
+		9AAB16FD29A244FC00644DFC /* TextureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB16FC29A244FC00644DFC /* TextureController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9AAB16DF29A1FFA100644DFC /* Verlet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verlet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAB16E229A1FFA100644DFC /* VerletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerletApp.swift; sourceTree = "<group>"; };
+		9AAB16E429A1FFA100644DFC /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		9AAB16E629A1FFA200644DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AAB16E929A1FFA200644DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AAB16EB29A1FFA200644DFC /* Verlet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Verlet.entitlements; sourceTree = "<group>"; };
+		9AAB16F129A201AF00644DFC /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		9AAB16F329A2045C00644DFC /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		9AAB16F529A21D5100644DFC /* BufferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferManager.swift; sourceTree = "<group>"; };
+		9AAB16F729A21D8700644DFC /* MetalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalManager.swift; sourceTree = "<group>"; };
+		9AAB16F929A240D200644DFC /* positions.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = positions.txt; sourceTree = "<group>"; };
+		9AAB16FC29A244FC00644DFC /* TextureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AAB16DC29A1FFA100644DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AAB16D629A1FFA100644DFC = {
+			isa = PBXGroup;
+			children = (
+				9AAB16E129A1FFA100644DFC /* Verlet */,
+				9AAB16E029A1FFA100644DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AAB16E029A1FFA100644DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB16DF29A1FFA100644DFC /* Verlet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AAB16E129A1FFA100644DFC /* Verlet */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB16E229A1FFA100644DFC /* VerletApp.swift */,
+				9AAB16E429A1FFA100644DFC /* MetalView.swift */,
+				9AAB16F129A201AF00644DFC /* Renderer.swift */,
+				9AAB16FC29A244FC00644DFC /* TextureController.swift */,
+				9AAB16F529A21D5100644DFC /* BufferManager.swift */,
+				9AAB16F729A21D8700644DFC /* MetalManager.swift */,
+				9AAB16F329A2045C00644DFC /* Shaders.metal */,
+				9AAB16E629A1FFA200644DFC /* Assets.xcassets */,
+				9AAB16EB29A1FFA200644DFC /* Verlet.entitlements */,
+				9AAB16E829A1FFA200644DFC /* Preview Content */,
+				9AAB16F929A240D200644DFC /* positions.txt */,
+			);
+			path = Verlet;
+			sourceTree = "<group>";
+		};
+		9AAB16E829A1FFA200644DFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AAB16E929A1FFA200644DFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AAB16DE29A1FFA100644DFC /* Verlet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAB16EE29A1FFA200644DFC /* Build configuration list for PBXNativeTarget "Verlet" */;
+			buildPhases = (
+				9AAB16DB29A1FFA100644DFC /* Sources */,
+				9AAB16DC29A1FFA100644DFC /* Frameworks */,
+				9AAB16DD29A1FFA100644DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Verlet;
+			productName = Verlet;
+			productReference = 9AAB16DF29A1FFA100644DFC /* Verlet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AAB16D729A1FFA100644DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9AAB16DE29A1FFA100644DFC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9AAB16DA29A1FFA100644DFC /* Build configuration list for PBXProject "Verlet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AAB16D629A1FFA100644DFC;
+			productRefGroup = 9AAB16E029A1FFA100644DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AAB16DE29A1FFA100644DFC /* Verlet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AAB16DD29A1FFA100644DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAB16EA29A1FFA200644DFC /* Preview Assets.xcassets in Resources */,
+				9AAB16E729A1FFA200644DFC /* Assets.xcassets in Resources */,
+				9AAB16FB29A2418100644DFC /* positions.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AAB16DB29A1FFA100644DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AAB16F429A2045C00644DFC /* Shaders.metal in Sources */,
+				9AAB16E529A1FFA100644DFC /* MetalView.swift in Sources */,
+				9AAB16F229A201AF00644DFC /* Renderer.swift in Sources */,
+				9AAB16F829A21D8700644DFC /* MetalManager.swift in Sources */,
+				9AAB16E329A1FFA100644DFC /* VerletApp.swift in Sources */,
+				9AAB16FD29A244FC00644DFC /* TextureController.swift in Sources */,
+				9AAB16F629A21D5100644DFC /* BufferManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9AAB16EC29A1FFA200644DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AAB16ED29A1FFA200644DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9AAB16EF29A1FFA200644DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Verlet/Verlet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Verlet/Preview Content\"";
+				DEVELOPMENT_TEAM = 232RDC7V36;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonmhobson.Verlet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9AAB16F029A1FFA200644DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Verlet/Verlet.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Verlet/Preview Content\"";
+				DEVELOPMENT_TEAM = 232RDC7V36;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonmhobson.Verlet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AAB16DA29A1FFA100644DFC /* Build configuration list for PBXProject "Verlet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAB16EC29A1FFA200644DFC /* Debug */,
+				9AAB16ED29A1FFA200644DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AAB16EE29A1FFA200644DFC /* Build configuration list for PBXNativeTarget "Verlet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAB16EF29A1FFA200644DFC /* Debug */,
+				9AAB16F029A1FFA200644DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AAB16D729A1FFA100644DFC /* Project object */;
+}
